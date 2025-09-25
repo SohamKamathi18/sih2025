@@ -1,10 +1,10 @@
 from mcp.server.fastmcp import FastMCP
 
-mcp=FastMCP("Weather")
+mcp=FastMCP("Visualisation")
 
 @mcp.tool()
 async def get_weather(location:str)->str:
-    """Get the weather location."""
+    """Generate Visualisation """
     return "It's always raining in California"
 
 if __name__=="__main__":
