@@ -12,7 +12,7 @@ async def main():
         {
             "sqlparse": {
                 "command": "python",
-                "args": ["SQLParse.py"],
+                "args": ["execute_sql_mcp.py"],
                 "transport": "stdio",
             },
             "visualisation": {

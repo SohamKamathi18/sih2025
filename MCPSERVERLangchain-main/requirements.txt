@@ -6,3 +6,5 @@ psycopg2
 plotly
 spacy
 transformers
+pandas
+kaleido
